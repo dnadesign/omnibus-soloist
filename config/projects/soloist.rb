@@ -1,7 +1,6 @@
-
 name 'soloist'
-maintainer 'CHANGE ME'
-homepage 'CHANGEME.com'
+maintainer 'Jeremy Olliver'
+homepage 'https://github.com/dnadesign/omnibus-soloist'
 
 install_path    '/opt/soloist'
 build_version   Omnibus::BuildVersion.semver
@@ -11,7 +10,10 @@ build_iteration 1
 dependency 'preparation'
 
 # soloist dependencies/components
-# dependency 'somedep'
+dependency 'ruby'
+dependency 'rubygems'
+dependency 'soloist'
+# dependency 'plist'
 
 # version manifest file
 dependency 'version-manifest'
