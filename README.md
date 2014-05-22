@@ -18,6 +18,8 @@ Usage
 
 You create a platform-specific package using the `build project` command:
 
+Ensure that chef-dk's embedded bin directory is not at the head of your path first, then:
+
 ```shell
 $ bin/omnibus build soloist
 ```
