@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary soloist removal steps
+# after package is uninstalled.
+#
+
+echo "soloist has been uninstalled!"
+
+exit 0
